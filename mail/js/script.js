@@ -5,7 +5,7 @@ let isFound = false;
 for (let i = 0; i < userEmailList.length; i++) {
     const userEmail = userEmailList[i];
      
-    if(userEmailInput === userEmail) {
+    if(userEmail === userEmailInput) {
         isFound = true;
     }
 }
