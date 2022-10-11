@@ -6,10 +6,12 @@ let result = "";
 
 if(playerRnd > computerRdn) {
     result = "Player ha vinto"
-} else {
+} else if (playerRnd < computerRdn) {
     result = "computer ha vinto";
+} else {
+    result = "pari"
 };
 
 //output
-alert(result)
+alert(result);
 
