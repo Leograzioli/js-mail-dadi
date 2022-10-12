@@ -1,5 +1,5 @@
-const userEmailList = ['mario@gmail.com', 'luigi@gmail.com', 'yoshi@gmail.com', 'toad@gmail.com']
-const userEmailInput = prompt("per accedere inserisce la tua mail:")
+const userEmailList = ['mario@gmail.com', 'luigi@gmail.com', 'yoshi@gmail.com', 'toad@gmail.com'];
+const userEmailInput = prompt("per accedere inserisce la tua mail:");
 let isFound = false;
 
 for (let i = 0; i < userEmailList.length; i++) {
@@ -7,7 +7,7 @@ for (let i = 0; i < userEmailList.length; i++) {
      
     if(userEmailInput === userEmail) {
         isFound = true;
-    }
+    };
 }
 
 if (isFound) {
